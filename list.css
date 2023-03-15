@@ -1,4 +1,8 @@
 body {
-  font-family: "Cutive Mono", monospace;
+  font-family: "Cutive Mono", monospace;}
+.grid-container-1 {display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+grid-tempalate-rows: 10% 90%;
+grid-column-gap: 70px;
+grid-row-gap: 0px;
 }
-body{ background-color: #578A62;}
