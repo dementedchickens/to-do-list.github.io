@@ -1,6 +1,7 @@
 body {
   font-family: "Cutive Mono", monospace;}
 body{ background-color: #496D45; }
+font{color: #36454f; }
 .grid-container-1 {min-height: 10em;
 display: table-cell;
 vertical-align: middle;}
