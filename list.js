@@ -5,3 +5,10 @@ function moveToMyList() {
   node.appendChild(textnode); 
   document.getElementById("myList").appendChild(node); 
 }
+function clearMyList() {
+  var list = document.getElementById("myList"); 
+  while (list.firstChild) { 
+    list.removeChild(list.firstChild); 
+  }
+}
+
